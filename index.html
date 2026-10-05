@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BTS SIO option SISR — Présentation</title>
+<meta name="description" content="Présentation du BTS Services Informatiques aux Organisations et de l'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0e1a2b; --panel:#15263d; --line:#2a4262;
+  --text:#e6edf5; --muted:#9fb2c8; --accent:#3ddbd9; --warm:#ffb454;
+}
+@media (prefers-color-scheme: light){
+  :root{--bg:#f3f6fa; --panel:#ffffff; --line:#c9d6e5; --text:#10243b; --muted:#4b627c; --accent:#007c80; --warm:#b45f00;}
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:17px/1.65 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Space Grotesk",system-ui,sans-serif;line-height:1.15}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--warm);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
+nav strong{font-family:"Space Grotesk",sans-serif;margin-right:auto}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--accent)}
+header.hero{padding:84px 0 64px}
+.hero h1{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:700;max-width:14ch}
+.hero p{max-width:60ch;color:var(--muted);margin-top:22px;font-size:1.15rem}
+.term{margin-top:36px;background:#07101c;color:#c8f7f6;border:1px solid var(--line);border-radius:6px;padding:18px 20px;font:15px/1.7 ui-monospace,Menlo,Consolas,monospace;max-width:560px;overflow-x:auto}
+.term span{color:#ffb454}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section h2{font-size:2rem;margin-bottom:20px}
+section p{max-width:70ch;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:24px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:22px}
+.box h3{font-size:1.2rem;margin-bottom:10px;color:var(--accent)}
+.box ul{padding-left:18px;color:var(--muted)}
+.box li{margin:4px 0}
+table{width:100%;border-collapse:collapse;margin-top:20px;background:var(--panel)}
+th,td{border:1px solid var(--line);padding:10px 14px;text-align:left;vertical-align:top}
+th{font-family:"Space Grotesk",sans-serif}
+.scroll{overflow-x:auto}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.tags span{border:1px solid var(--line);background:var(--panel);padding:5px 12px;border-radius:99px;font-size:.95rem}
+.steps{list-style:none;padding:0;margin-top:20px;border-left:3px solid var(--accent)}
+.steps li{padding:6px 0 14px 20px}
+.steps b{font-family:"Space Grotesk",sans-serif}
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:.95rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <strong>BTS SIO · SISR</strong>
+    <a href="#bts">Le BTS</a>
+    <a href="#sisr">L'option SISR</a>
+    <a href="#competences">Compétences</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#debouches">Débouchés</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Administrer les réseaux et systèmes d'une organisation</h1>
+    <p>Présentation du BTS Services Informatiques aux Organisations (SIO) et de son option SISR : Solutions d'Infrastructure, Systèmes et Réseaux.</p>
+    <div class="term" aria-hidden="true">
+      <span>$</span> ping serveur-prod<br>
+      64 bytes from 192.168.1.10: time=0.4 ms<br>
+      <span>$</span> systemctl status ssh<br>
+      Active: active (running)
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="bts">
+  <div class="wrap">
+    <h2>Le BTS SIO en bref</h2>
+    <p>Le BTS SIO est un diplôme national de niveau bac+2, préparé en 2 ans après le baccalauréat, en lycée ou en alternance. Il forme des techniciens supérieurs capables de gérer et de faire évoluer le système d'information d'une entreprise ou d'une organisation.</p>
+    <p>Dès la deuxième année, l'étudiant choisit entre deux options : SISR ou SLAM.</p>
+    <div class="grid">
+      <div class="box">
+        <h3>SISR</h3>
+        <p>Solutions d'Infrastructure, Systèmes et Réseaux : serveurs, réseaux, sécurité, supervision.</p>
+      </div>
+      <div class="box">
+        <h3>SLAM</h3>
+        <p>Solutions Logicielles et Applications Métiers : développement d'applications web et logicielles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sisr">
+  <div class="wrap">
+    <h2>L'option SISR</h2>
+    <p>Le technicien SISR installe, configure, sécurise et maintient l'infrastructure informatique : les postes de travail, les serveurs, le réseau et les services qui permettent à une organisation de fonctionner chaque jour.</p>
+    <div class="grid">
+      <div class="box">
+        <h3>Systèmes</h3>
+        <ul>
+          <li>Windows Server, Active Directory</li>
+          <li>Linux (Debian, Ubuntu)</li>
+          <li>Virtualisation (VirtualBox, VMware, Proxmox)</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Réseaux</h3>
+        <ul>
+          <li>Adressage IP, VLAN, routage</li>
+          <li>DHCP, DNS, VPN</li>
+          <li>Pare-feu (pfSense)</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Sécurité et supervision</h3>
+        <ul>
+          <li>Sauvegardes et continuité de service</li>
+          <li>Supervision (Zabbix, Nagios)</li>
+          <li>Protection des données (RGPD)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="competences">
+  <div class="wrap">
+    <h2>Blocs de compétences</h2>
+    <div class="scroll">
+    <table>
+      <thead><tr><th>Bloc</th><th>Contenu</th></tr></thead>
+      <tbody>
+        <tr><td>Bloc 1</td><td>Support et mise à disposition de services informatiques</td></tr>
+        <tr><td>Bloc 2 (SISR)</td><td>Administration des systèmes et des réseaux</td></tr>
+        <tr><td>Bloc 3</td><td>Cybersécurité des services informatiques</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="tags">
+      <span>Veille technologique</span>
+      <span>Gestion d'incidents</span>
+      <span>Documentation technique</span>
+      <span>Travail en équipe</span>
+      <span>Anglais technique</span>
+    </div>
+  </div>
+</section>
+
+<section id="parcours">
+  <div class="wrap">
+    <h2>Déroulement de la formation</h2>
+    <ol class="steps">
+      <li><b>1re année :</b> tronc commun, bases des systèmes, des réseaux, de la programmation et du support utilisateur.</li>
+      <li><b>2e année :</b> spécialisation SISR, projets d'infrastructure et cybersécurité.</li>
+      <li><b>Stages :</b> 5 semaines minimum en entreprise sur les deux ans (ou alternance).</li>
+      <li><b>Examen :</b> épreuves écrites, projets, portfolio de compétences et veille technologique.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="debouches">
+  <div class="wrap">
+    <h2>Débouchés et poursuites d'études</h2>
+    <div class="grid">
+      <div class="box">
+        <h3>Métiers</h3>
+        <ul>
+          <li>Technicien systèmes et réseaux</li>
+          <li>Technicien support / helpdesk</li>
+          <li>Administrateur systèmes et réseaux junior</li>
+          <li>Technicien infrastructure</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Poursuites d'études</h3>
+        <ul>
+          <li>Bachelor / BUT 3 informatique</li>
+          <li>Licence professionnelle (réseaux, cybersécurité)</li>
+          <li>Écoles d'ingénieurs (admission parallèle)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Page réalisée par <strong>Ton Prénom Nom</strong>, étudiant en BTS SIO option SISR. Contact : <a href="mailto:ton.email@exemple.fr">ton.email@exemple.fr</a> · <a href="https://github.com/ton-pseudo">GitHub</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
